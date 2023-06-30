@@ -13,7 +13,7 @@ function Navbar() {
                 {/* <img className="h-10 w-10" src="C:\Users\acm\Desktop\ethoshacathon\SAFAR\src\components\collection\image\safarlogo.png" alt="" /> */}
                 <img src={logo} alt="logo" className="image-responsive rounded-circle" style={{ height: "60px", width: "60px" }} />
                               </a>
-                              <h1 className="ml-4 font-bold text-3xl text-cyan-500">SAFAR {' '}{' '}{' '} {' '} {' '} {' '} {' '} {' '}   </h1>
+                              <h1 className="ml-4 font-bold text-3xl text-cyan-500  antialiased drop-shadow-md">SAFAR {' '}{' '}{' '} {' '} {' '} {' '} {' '} {' '}   </h1>
             </h1>
           
             
