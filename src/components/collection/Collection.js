@@ -15,8 +15,8 @@ function Collection() {
     }, [])
     return (
         <div className=" h-full mt-0 ">
-            <h1>Collection of VR Video</h1>
-            <div className="flex flex-col">
+            <h1 className="text-3xl font-bold text-slate-700 bg-slate-300 p-4 -mt-8">Collection of VR Video</h1>
+            <div className="flex flex-col bg-slate-200">
                 <div className="flex flex-row justify-around ">
                     {
                         source.slice(0, 3).map((product) => {
