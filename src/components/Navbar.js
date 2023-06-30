@@ -27,7 +27,7 @@ function Navbar() {
                       <a href="">360-View</a>
                     </li>
                     <li class="p-4 border-b-2 border-sky-500 border-opacity-0 hover:border-opacity-100 hover:text-sky-500 duration-200 cursor-pointer">
-                      <a href="">Explore</a>
+                      <Link to="/explore">Explore</Link>
                     </li>
                     <li class="p-4 border-b-2 border-sky-500 border-opacity-0 hover:border-opacity-100 hover:text-sky-500 duration-200 cursor-pointer">
                       <a href="">About</a>
