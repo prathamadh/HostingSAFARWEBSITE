@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Filter from './Filter';
 
-const url='http://192.168.74.56/php/ethoshackphp/SAFAR/php/display';
-const urlimg='http://192.168.74.56/php/ethoshackphp/SAFAR/php/uploads/';
+const url='http://172.0.16.125/php/ethoshackphp/SAFAR/php/display';
+const urlimg='http://172.0.16.125/php/ethoshackphp/SAFAR/php/uploads/';
 
 function Option() {
   const [place, setPlace] = useState([]);
