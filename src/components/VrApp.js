@@ -1,8 +1,9 @@
 import * as THREE from 'three';
 import '../vrapp.css'
-import video from '../video/buddha.mp4'
+import video from '../video/mountain.mp4'
 import { useEffect } from 'react';
 import play from '../image/play.svg'
+import { VRButton } from 'three/examples/jsm/webxr/VRButton'
 function VrApp({videosrc ,vrwidth,vrheight}) {
    
     useEffect(() => {
@@ -27,9 +28,11 @@ function VrApp({videosrc ,vrwidth,vrheight}) {
         const canvas = document.querySelector('#three');
         const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
         renderer.setSize(width, height);
-
+        renderer.xr.enabled = true;
+        
     
         render.appendChild(renderer.domElement);
+        render.appendChild(VRButton.createButton(renderer))
 
         // create a sphere geometry
         const geometry = new THREE.SphereGeometry(15, 32, 16);

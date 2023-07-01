@@ -9,9 +9,9 @@ function App() {
       <div className='h-screen'>
         <Home />
       </div>
-      <div className='h-full mt-0 ' id='vrapp'>
+      {/* <div className='h-full mt-0 ' id='vrapp'>
         <Collection />
-      </div>
+      </div> */}
       
     </div>
 
